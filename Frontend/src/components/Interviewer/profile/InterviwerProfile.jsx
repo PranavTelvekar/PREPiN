@@ -149,7 +149,7 @@ const InterviewerProfile = () => {
                     </button>
                     <button 
                         className='student-profile-edit-btn' 
-                        onClick={() => navigate(`/student/${email}/edit-profile`)}
+                        onClick={() => navigate(`/interviewer/${email}/edit-profile`)}
                     >
                         Edit Profile
                     </button>
