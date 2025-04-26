@@ -1,6 +1,6 @@
-let IS_PROD = false;
+let IS_PROD = true;
 const server = IS_PROD ?
-    "https://zoom-1olz.onrender.com" :
+    "https://prepin-m543.onrender.com" :
 
     "http://localhost:8000"
 
