@@ -453,7 +453,7 @@ export default function VideoMeetComponent() {
                         
                         {showModal && (
                             <div className='code-display'>
-                                <div>
+                                <div className="code-inner" >
                                     <h1>{isCodeMode ? "Code Collaboration" : "Chat"}</h1>
                                     <div className="mode-toggle">
                                         <Button 
