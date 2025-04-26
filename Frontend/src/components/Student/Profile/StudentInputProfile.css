@@ -1,0 +1,150 @@
+/* StudentInputProfile.css */
+.student-input-profile-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.student-input-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.error-message {
+  color: #d32f2f;
+  background-color: #fde7e7;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.student-input-profile label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.student-input-profile input[type="text"],
+.student-input-profile input[type="number"],
+.student-input-profile input[type="date"],
+.student-input-profile input[type="url"],
+.student-input-profile textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.student-input-profile textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.student-input-profile-btn {
+  padding: 8px 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.student-input-profile-btn:hover {
+  background-color: #1565c0;
+}
+
+.student-input-profile-btn:disabled {
+  background-color: #b0bec5;
+  cursor: not-allowed;
+}
+
+.student-input-profile-save-btn {
+  padding: 12px 24px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.student-input-profile-save-btn:hover {
+  background-color: #1b5e20;
+}
+
+.student-input-profile-save-btn:disabled {
+  background-color: #a5d6a7;
+  cursor: not-allowed;
+}
+
+.student-skills-output,
+.student-project-output,
+.student-experience-output,
+.student-education-output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.student-skills-output-item {
+  background-color: #e3f2fd;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.student-project-data,
+.student-experience-data,
+.student-education-data {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.student-project-para,
+.student-experience-para,
+.student-education-para {
+  margin: 5px 0;
+}
+
+.student-project-para span,
+.student-experience-para span,
+.student-education-para span {
+  font-weight: bold;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #d32f2f;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+.date-inputs {
+  display: flex;
+  gap: 20px;
+}
+
+.date-inputs > div {
+  flex: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .date-inputs {
+      flex-direction: column;
+      gap: 10px;
+  }
+}

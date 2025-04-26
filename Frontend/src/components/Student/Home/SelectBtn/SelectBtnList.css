@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home-select-btn-list {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    border: 1px solid black;
+    overflow-wrap: anywhere;
+    padding: 5px;
+}
+
+.home-select-btn {
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.home-select-btn input {
+    position: absolute;
+    opacity: 0;
+}
+
+.home-select-btn:hover {
+    background-color: var(--select-btn-bgc);
+}
+

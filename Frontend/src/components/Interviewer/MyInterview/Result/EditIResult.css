@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.edit-result-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.edit-result {
+    position: relative;
+    top: 10vh;
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .edit-result h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .edit-result-data {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .edit-result-pros,
+  .edit-result-cons,
+  .edit-result-resume-details,
+  .edit-result-review,
+  .edit-result-score {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .edit-result-pros h2,
+  .edit-result-cons h2,
+  .edit-result-score h2,
+  .edit-result-resume-details h2,
+  .edit-result-review h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    display: block;
+    width: 60%;
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  textarea {
+    min-height: 80px;
+  }
+  
+  button {
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2.5px solid gold;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: large;
+  }
+  
+  button:hover {
+    background-color: gold;
+  }
+  
+  .pros-display p,
+  .cons-display p {
+    margin: 0.25rem 0;
+    padding: 0.3rem 0.5rem;
+    background-color: #e6f7ff;
+    border-left: 4px solid #1890ff;
+    border-radius: 4px;
+  }
+
+  

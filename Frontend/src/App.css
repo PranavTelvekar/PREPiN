@@ -1,0 +1,12 @@
+:root {
+    --select-btn-bgc : #dcdcdc;
+
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}

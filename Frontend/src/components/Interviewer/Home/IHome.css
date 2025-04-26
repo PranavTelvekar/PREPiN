@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ihome-upcoming-interview-wrapper {
+    overflow: hidden;
+    position: relative;
+    top: 10vh;
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    grid-template-areas: "icard slot" "review review";
+    grid-template-columns: 45vw 55vw;
+}
+
+
+
+.ihome-icard h2 {
+    z-index: 1000;
+    width: 45vw;
+    position: fixed;
+    background-color: white;
+    display: block; 
+}
+
+.icards {
+    position: relative;
+    top: 7vh;
+}
+
+.ihome-icard{
+    grid-area: icard;
+    width: 100%;
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.ihome-slot {
+    grid-area: slot;
+    background-color: white;
+    border-left: 1px solid black;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ihome-review {
+    grid-area: review;
+    height: 40vh;
+    width: 100%;
+}
+
+.ihome-move-btns {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100vw;
+}
+
+.ihome-move-btn {
+    position: absolute;
+    left: 0px;
+    border-right-color: #fff;
+    border: 0px solid white ;
+    bottom: 10px;
+}
+
+.ihome-review-move-left {
+    left: 1vw;
+}
+
+.ihome-review-move-right {
+    left: 96vw;
+}
+
+input[type="datetime-local"] {
+    padding: 10px;
+    border: 2px solid gold;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  
+  input[type="datetime-local"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+  }
+  
+
+.slot-add-btn {
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: gold;
+    border: 2.5px solid gold;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: large;
+}
+
+.slot-add-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.ihome-inner1 {
+    height: 40vh;
+    padding: 10px;
+    display: inline-flex;
+    gap: 10px;
+    position: relative;
+}

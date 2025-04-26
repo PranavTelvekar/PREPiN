@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.imy-interview-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.imy-interview {
+    position: relative;
+    top: 10vh;
+}
+
+.imy-interview-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.my-interview-back-btn {
+    align-self: flex-end;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 80px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2.5px solid red;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: large;
+    background-color: red;
+    color: white;
+
+}
+
+.my-interview-back-btn:hover {
+    background-color: white;
+    color: black;
+}

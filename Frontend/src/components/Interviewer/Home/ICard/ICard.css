@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.icard-line {
+    height: 1px;
+    width: 95%;
+    margin: auto;
+    margin-top: 2px;
+    background-color: grey;
+}
+
+.icard {
+    width: 45vw;
+    height: auto;
+    padding: 5px 0px;
+    border: 1px solid black;
+}
+
+.icard:hover {
+    background-color: rgb(243, 241, 241);
+}
+
+.icard-img-name {
+    display: flex;
+    gap: 10px;
+}
+
+.icard-img-name img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 1000px;
+}
+
+.icard-payment, .icard-slot {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icard-payment .data, .icard-slot .data {
+    color: grey;
+    font-size: xx-small;
+
+}
+
+.icard-data {
+    padding-left: 5px;
+    display: flex;
+    column-gap: 5px;
+    align-content: center;
+}
+
+.icard-data p {
+    position: relative;
+    bottom: 4px;
+}

@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.popup {
+    position: absolute;
+
+}
+
+.my-interview-card {
+    min-width: 25vw;
+    width: 25vw;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transform: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transform: scale(1);
+}
+
+.my-interview-card:hover {
+    transform: scale(1.03) translateY(3px);
+}
+
+.my-interview-img-name {
+    padding: 5px;
+    display: flex;
+    column-gap: 20px;
+}
+
+#my-interview-thumbnail {
+    object-fit: cover;
+    object-position: top center;
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;
+}
+
+.my-interview-card-para {
+    align-self: center;
+}
+
+.my-interview-card-data {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.my-interview-card-para1 {
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.my-interview-card-btn-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-interview-card-btn {
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2.5px solid gold;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: large;
+}
+
+#my-interview-result {
+    background-color: GOLD;
+    color: white;
+
+}
+
+#my-interview-result:hover {
+    background-color: white;
+    color: black;
+}
+
+#my-interview-review {
+   
+    background-color: white;
+    color: black;
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 1024px) {
+    .my-interview-card {
+        width: 40vw;
+    }
+
+    #my-interview-thumbnail {
+        height: 25vh;
+    }
+
+    .my-interview-card-btn {
+        padding: 6px 12px;
+        font-size: medium;
+    }
+
+    .my-interview-card-para {
+        font-size: small;
+    }
+}
+
+/* Small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .my-interview-card {
+        width: 80vw;
+    }
+
+    #my-interview-thumbnail {
+        height: 22vh;
+    }
+
+    .my-interview-card-data {
+        padding-left: 10px;
+    }
+
+    .my-interview-card-btn {
+        padding: 5px 10px;
+        font-size: small;
+    }
+
+    .my-interview-card-para {
+        font-size: x-small;
+        column-gap: 3px;
+    }
+
+    .my-interview-card-btn-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}

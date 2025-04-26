@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-interview {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    padding-bottom: 10px;
+    top: 10vh;
+}
+
+.my-interview-upcoming h2, .my-interview-history h2  {
+    margin-bottom: 10px;
+}
+
+.my-interview-upcoming-card, .my-interview-history-card {
+    position: relative;
+    display: flex;
+    column-gap: 10px;
+}
+
+#my-interview-btn {
+    align-self: flex-end;
+    position: relative;
+    right: 5px;
+    width: 80px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2.5px solid red;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: large;
+    background-color: red;
+    color: white;
+
+}
+
+#my-interview-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.my-interview-move-btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100vw;
+}
+
+.my-interview-move-btn {
+    border: 0px;
+    background-color: #fff;
+}

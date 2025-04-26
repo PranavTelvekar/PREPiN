@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.istudent-data-wrapper {
+    position: relative;
+    top: 10vh;
+    width: 97vw;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.istudent-img-name-wrapper {
+    display: flex;
+    gap: 5vw;
+
+}
+
+.istudent-img-name-wrapper> img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 1000px;
+    object-fit: contain;
+}
+
+.istudent-name-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.istudent-name :first-child {
+    font-weight: bold;
+}
+
+.istudent-name-data {
+    font-size: larger;
+}
+
+.istudent-bio {
+    width: 80%;
+    height: 20vh;
+    overflow: auto;
+}
+
+.istudent-bio > span {
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+}
+
+.istudent-experience> p> span {
+    font-weight: bold;
+}
+
+.istudent-inner {
+    height: 40vh;
+    overflow: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.istudent-inner2 {
+    overflow: auto;
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.iskill {
+    padding: 4px 10px;
+    margin: 4px 0px;
+    border-radius: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.istudent-btn {
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2.5px solid gold;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: large;
+}
+
+#istudent-resume {
+    background-color: GOLD;
+    color: white;
+
+}
+
+#istudent-resume:hover, #istudent-back:hover {
+    background-color: white;
+    color: black;
+}
+
+#istudent-back {
+    
+    background-color: red;
+    color: white;
+
+}

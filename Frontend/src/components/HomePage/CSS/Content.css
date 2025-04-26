@@ -1,0 +1,95 @@
+#content-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 75vh;
+    position: relative;
+    top: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.home-img {
+    width: 45vw;
+    height: auto;
+}
+
+.home-data {
+    width: 45vw;
+}
+
+p {
+    margin-top: 3px;
+    font-size: large;
+}
+
+#signup {
+    color: blue;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.footer {
+    position: relative;
+    top: 25vh;
+    padding-top: 10px;
+    background-color: #1f2937; /* Dark Gray */
+    color: #f9fafb;
+    text-align: center;
+    border-top: 2px solid #374151;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-buttons .footer-btn {
+    color: #f9fafb;
+    text-decoration: none;
+    background-color: #4b5563;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-buttons .footer-btn:hover {
+    background-color: #6b7280;
+  }
+  
+  .footer-copy {
+    font-size: 14px;
+    color: #d1d5db;
+  }
+
+  #choice{
+    display: none;
+  }
+
+  #choice1{
+    display: flex;
+    gap: 10px;
+
+  }
+
+  .disp-btn {
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-color: #959595;
+    text-decoration: none;
+    color: white;
+  }
+
+  .disp-btn:hover {
+    background-color: #747474;
+  }
+  

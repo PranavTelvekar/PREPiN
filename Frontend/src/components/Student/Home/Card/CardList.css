@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cardlist-wrapper {
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+.classlist-h2 {
+    margin-left: 20px;
+}
+
+
+@media only screen and ( width < 700px ){
+    .cardlist-wrapper {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: start;
+        padding: 20px;
+        column-gap: 20px;
+    }
+}

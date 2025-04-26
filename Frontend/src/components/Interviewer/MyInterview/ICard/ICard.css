@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-interview-icard-line {
+    height: 1px;
+    width: 95%;
+    margin: auto;
+    margin-top: 2px;
+    background-color: grey;
+}
+
+.my-interview-icard {
+    width: 25vw;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.my-interview-icard:hover {
+    background-color: rgb(243, 241, 241);
+}
+
+.my-interview-icard-img-name {
+    display: flex;
+    gap: 10px;
+}
+
+.my-interview-icard-img-name img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 1000px;
+}
+
+.my-interview-icard-payment, .my-interview-icard-slot, .my-interview-icard-result {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.my-interview-data {
+    color: grey;
+    font-size: xx-small;
+
+}
+
+.my-interview-icard-data {
+    padding-left: 5px;
+    column-gap: 5px;
+    align-content: center;
+}
+
+.my-interview-icard-data p {
+    position: relative;
+    bottom: 4px;
+}
+
+.my-interview-icard-btn-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-interview-icard-btn {
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2.5px solid gold;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: large;
+}
+
+#my-interview-book {
+    background-color: GOLD;
+    color: white;
+
+}
+
+#my-interview-book:hover {
+    background-color: white;
+    color: black;
+}
+
+#my-interview-explore {
+   
+    background-color: white;
+    color: black;
+
+}
+
+#my-interview-explore:hover {
+    background-color: gold;
+    color: white;
+}
